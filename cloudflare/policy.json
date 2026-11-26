@@ -1,0 +1,42 @@
+{
+  "config": {
+    "rewrites": [
+      {
+        "source": "/booking",
+        "destination": "/booking.html"
+      }
+    ],
+    "functions": {
+      "api/booking.mjs": {
+        "maxDuration": 30
+      }
+    }
+  },
+  "domains": [
+    {
+      "name": "www.baytowndumpsterrental.shop",
+      "apexName": "baytowndumpsterrental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "baytowndumpsterrental.shop",
+      "apexName": "baytowndumpsterrental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/DESIGN.md",
+    "/booking.css",
+    "/booking.html",
+    "/booking.js",
+    "/favicon.svg",
+    "/index.html",
+    "/media/roll-off.webp",
+    "/media/sources.json",
+    "/style.css"
+  ]
+}
